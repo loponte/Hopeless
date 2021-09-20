@@ -21,28 +21,28 @@ nuker.on("messageCreate", (message) => {
 
     // Comando de help
     const help = new MessageEmbed()
-        .setDescription(`**Hopeless Beta ;**
-    \n**criar canais em massa ;**
-    ${prefix}mc [quantidade] (texto) i.e \`${prefix}mc 5 test\`\n
-    **criar canais em massa com ping ;**
+        .setDescription(`**Hopeless Beta 😌**
+    \n**Criar canais em massa**
+    ${prefix}mc [quantidade] (texto) \`${prefix}mc 5 test\`\n
+    **Criar canais em massa com ping**
     ${prefix}cp [quantidade] (texto), {mensagem} \`${prefix}cp 5 teste, testando\`\n
-    **criar cargos em massa ;**
+    **Criar cargos em massa**
     ${prefix}mr [quantidade] (texto) \`${prefix}mr 5 test\`\n
-    **deletar todos os chats ;**
+    **Deletar todos os chats**
     ${prefix}dc\n
-    **deletar todos os cargos ;**
+    **Deletar todos os cargos**
     ${prefix}dr\n
-    **deletar todos os emojis ;**
+    **Deletar todos os emojis**
     ${prefix}de\n
-    **deletar todos os stickers ;**
+    **Deletar todos os stickers**
     ${prefix}ds\n
-    **expulsão em massa ;**
+    **Expulsão em massa**
     ${prefix}mk\n
-    **banimento em massa ;**
+    **Banimento em massa**
     ${prefix}mb
     `)
         .setFooter(`© Hopeless Beta`)
-        .setColor(0x36393E)
+        .setColor('#FF51AB')
         .setTimestamp(Date.now());
 
     // Permissões
