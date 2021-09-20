@@ -19,7 +19,7 @@
 # Instalação
 
 1. Vá para [Discord Developers Applications](https://discord.com/developers/applications) e crie uma nova aplicação | Você pode usar uma que ja existe.
-2. Vá para "bot" role para baixo até achar "Privileged Gateway Intents".
+2. Vá para "bot", role para baixo até achar "Privileged Gateway Intents".
 3. Marque as duas opções **Presence Intent** e **Server Members Intent**.
 
 ### Exemplo
