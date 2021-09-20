@@ -21,27 +21,28 @@ nuker.on("messageCreate", (message) => {
 
     // Comando de help
     const help = new MessageEmbed()
+    .setThumbnail(message.author.displayAvatarURL({ dynamic: true, format: "png", size: 1024}))
         .setDescription(`**Hopeless Beta 😌**
     \n**Criar canais em massa**
-    ${prefix}mc [quantidade] (texto) \`${prefix}mc 5 test\`\n
+    • ${prefix}mc [quantidade] (texto) \`${prefix}mc 5 test\`\n
     **Criar canais em massa com ping**
-    ${prefix}cp [quantidade] (texto), {mensagem} \`${prefix}cp 5 teste, testando\`\n
+    • ${prefix}cp [quantidade] (texto), {mensagem} \`${prefix}cp 5 teste, testando\`\n
     **Criar cargos em massa**
-    ${prefix}mr [quantidade] (texto) \`${prefix}mr 5 test\`\n
+    • ${prefix}mr [quantidade] (texto) \`${prefix}mr 5 test\`\n
     **Deletar todos os chats**
-    ${prefix}dc\n
+    • ${prefix}dc\n
     **Deletar todos os cargos**
-    ${prefix}dr\n
+    • ${prefix}dr\n
     **Deletar todos os emojis**
-    ${prefix}de\n
+    • ${prefix}de\n
     **Deletar todos os stickers**
-    ${prefix}ds\n
+    • ${prefix}ds\n
     **Expulsão em massa**
-    ${prefix}mk\n
+    • ${prefix}mk\n
     **Banimento em massa**
-    ${prefix}mb
+    • ${prefix}mb
     `)
-        .setFooter(`© Hopeless Beta`)
+        .setFooter(`© 2022 All rights Reserved: Hopeless Beta, Bot.`)
         .setColor('#FF51AB')
         .setTimestamp(Date.now());
 
