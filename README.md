@@ -49,7 +49,7 @@ Esta aplicação foi feita para fins educacionais e de prova de conceitos. Não 
 ## Tip
 Além disso, eu recomendo apenas o ping em massa até que o servidor alcance 3.000 pings. Mais do que isso resultará no desacordo do hoster da ferramenta ou terá sua taxa limitada por 30 minutos até 2 horas ;)
 
-## Me chame
+## Duvidas? Me chame!
 
 ﹒[Discord](https://discord.com/users/185562772464074753)
 ﹒[Discord Server](https://discord.gg/5n9EbmsZMR)
